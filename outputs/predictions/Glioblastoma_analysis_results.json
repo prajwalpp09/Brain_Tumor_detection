@@ -1,0 +1,33 @@
+{
+  "image_path": "/Users/prajwalpatil/Desktop/Glioblastoma.jpg",
+  "analysis_timestamp": "2025-10-12T22:43:51.081527",
+  "classification": {
+    "predicted_class": "glioma_tumor",
+    "predicted_class_idx": 0,
+    "confidence": 0.9982471466064453,
+    "all_probabilities": {
+      "glioma_tumor": 0.9982471466064453,
+      "meningioma_tumor": 0.0011581918224692345,
+      "no_tumor": 0.0005419768858700991,
+      "pituitary_tumor": 5.26462790730875e-05
+    }
+  },
+  "segmentation": {
+    "mask_available": true,
+    "mask_path": "outputs/predictions/Glioblastoma_segmentation_mask.png"
+  },
+  "size_estimation": {
+    "area_pixels": 4479,
+    "area_mm2": 1119.75,
+    "size_category": "large",
+    "num_regions": 6,
+    "largest_region_pixels": 2103.0,
+    "circularity": 0.032,
+    "aspect_ratio": 0.683,
+    "solidity": 0.073
+  },
+  "explanation": {
+    "available": true,
+    "explanation_path": "outputs/predictions/Glioblastoma_gradcam_explanation.png"
+  }
+}

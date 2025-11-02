@@ -1,0 +1,11 @@
+{
+  "test_loss": 0.47597891092300415,
+  "test_accuracy": 0.9085173606872559,
+  "class_accuracies": {
+    "glioma_tumor": 0.946236559139785,
+    "meningioma_tumor": 0.8617021276595744,
+    "no_tumor": 0.85,
+    "pituitary_tumor": 0.9444444444444444
+  },
+  "total_samples": 317
+}

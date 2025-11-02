@@ -1,0 +1,47 @@
+{
+  "total_processed": 3264,
+  "successful": 3264,
+  "failed": 0,
+  "categories": {
+    "Training_glioma_tumor": {
+      "total": 826,
+      "processed": 826,
+      "failed": 0
+    },
+    "Training_meningioma_tumor": {
+      "total": 822,
+      "processed": 822,
+      "failed": 0
+    },
+    "Training_no_tumor": {
+      "total": 395,
+      "processed": 395,
+      "failed": 0
+    },
+    "Training_pituitary_tumor": {
+      "total": 827,
+      "processed": 827,
+      "failed": 0
+    },
+    "Testing_glioma_tumor": {
+      "total": 100,
+      "processed": 100,
+      "failed": 0
+    },
+    "Testing_meningioma_tumor": {
+      "total": 115,
+      "processed": 115,
+      "failed": 0
+    },
+    "Testing_no_tumor": {
+      "total": 105,
+      "processed": 105,
+      "failed": 0
+    },
+    "Testing_pituitary_tumor": {
+      "total": 74,
+      "processed": 74,
+      "failed": 0
+    }
+  }
+}

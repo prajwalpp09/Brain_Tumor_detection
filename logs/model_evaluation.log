@@ -1,0 +1,13 @@
+2025-10-05 10:49:30,954 - INFO - Classifier model loaded from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-05 10:49:31,414 - INFO - U-Net model loaded from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/unet_segmentation.h5
+2025-10-05 10:49:32,067 - INFO - Loaded train split: 2211 samples
+2025-10-05 10:49:32,228 - INFO - Loaded val split: 632 samples
+2025-10-05 10:49:32,280 - INFO - Loaded test split: 317 samples
+2025-10-05 10:49:32,280 - INFO - Evaluating classification model...
+2025-10-05 10:49:39,006 - INFO - Classification evaluation completed. Results saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/classifier_evaluation
+2025-10-05 10:49:39,080 - INFO - Generated masks for 100/317 images
+2025-10-05 10:49:39,139 - INFO - Generated masks for 200/317 images
+2025-10-05 10:49:39,193 - INFO - Generated masks for 300/317 images
+2025-10-05 10:49:39,223 - INFO - Evaluating segmentation model...
+2025-10-05 10:50:19,033 - INFO - Segmentation evaluation completed. Results saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/segmentation_evaluation
+2025-10-05 10:50:19,035 - INFO - Comprehensive evaluation report saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/comprehensive_evaluation_report.md

@@ -1,0 +1,33 @@
+{
+  "image_path": "/Users/prajwalpatil/Desktop/image2.jpg",
+  "analysis_timestamp": "2025-10-12T22:34:04.515674",
+  "classification": {
+    "predicted_class": "meningioma_tumor",
+    "predicted_class_idx": 1,
+    "confidence": 0.9782569408416748,
+    "all_probabilities": {
+      "glioma_tumor": 0.02059679850935936,
+      "meningioma_tumor": 0.9782569408416748,
+      "no_tumor": 0.0003578432369977236,
+      "pituitary_tumor": 0.0007884453516453505
+    }
+  },
+  "segmentation": {
+    "mask_available": true,
+    "mask_path": "outputs/predictions/image2_segmentation_mask.png"
+  },
+  "size_estimation": {
+    "area_pixels": 1100,
+    "area_mm2": 275.0,
+    "size_category": "large",
+    "num_regions": 3,
+    "largest_region_pixels": 418.0,
+    "circularity": 0.081,
+    "aspect_ratio": 7.0,
+    "solidity": 0.415
+  },
+  "explanation": {
+    "available": true,
+    "explanation_path": "outputs/predictions/image2_gradcam_explanation.png"
+  }
+}

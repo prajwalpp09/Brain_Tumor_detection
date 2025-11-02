@@ -1,0 +1,161 @@
+{
+  "total_samples": 10,
+  "explanations": [
+    {
+      "predicted_class": "glioma_tumor",
+      "predicted_class_idx": 0,
+      "confidence": 0.9999947547912598,
+      "all_probabilities": [
+        0.9999947547912598,
+        1.2584606565724243e-06,
+        3.5887285321223317e-06,
+        3.098293746006675e-07
+      ],
+      "true_label": 0,
+      "correct_prediction": true,
+      "sample_index": 18,
+      "filename": "gg (279)_preprocessed.jpg"
+    },
+    {
+      "predicted_class": "meningioma_tumor",
+      "predicted_class_idx": 1,
+      "confidence": 0.8606671094894409,
+      "all_probabilities": [
+        0.08474646508693695,
+        0.8606671094894409,
+        0.03718799725174904,
+        0.017398392781615257
+      ],
+      "true_label": 2,
+      "correct_prediction": false,
+      "sample_index": 260,
+      "filename": "image(77)_preprocessed.jpg"
+    },
+    {
+      "predicted_class": "glioma_tumor",
+      "predicted_class_idx": 0,
+      "confidence": 0.6426780819892883,
+      "all_probabilities": [
+        0.6426780819892883,
+        0.3570539951324463,
+        0.00013262860011309385,
+        0.0001353893894702196
+      ],
+      "true_label": 1,
+      "correct_prediction": false,
+      "sample_index": 5,
+      "filename": "m2 (162)_preprocessed.jpg"
+    },
+    {
+      "predicted_class": "glioma_tumor",
+      "predicted_class_idx": 0,
+      "confidence": 0.9996265172958374,
+      "all_probabilities": [
+        0.9996265172958374,
+        0.00034055381547659636,
+        2.4799586753943004e-05,
+        8.139031706377864e-06
+      ],
+      "true_label": 1,
+      "correct_prediction": false,
+      "sample_index": 148,
+      "filename": "m3 (188)_preprocessed.jpg"
+    },
+    {
+      "predicted_class": "no_tumor",
+      "predicted_class_idx": 2,
+      "confidence": 0.9999935626983643,
+      "all_probabilities": [
+        5.523002073459793e-06,
+        6.43041857983917e-07,
+        0.9999935626983643,
+        2.325583068341075e-07
+      ],
+      "true_label": 2,
+      "correct_prediction": true,
+      "sample_index": 34,
+      "filename": "image (26)_preprocessed.jpg"
+    },
+    {
+      "predicted_class": "meningioma_tumor",
+      "predicted_class_idx": 1,
+      "confidence": 0.9594653248786926,
+      "all_probabilities": [
+        0.031543321907520294,
+        0.9594653248786926,
+        0.003149597905576229,
+        0.0058418153785169125
+      ],
+      "true_label": 1,
+      "correct_prediction": true,
+      "sample_index": 301,
+      "filename": "m (77)_preprocessed.jpg"
+    },
+    {
+      "predicted_class": "meningioma_tumor",
+      "predicted_class_idx": 1,
+      "confidence": 0.3465990722179413,
+      "all_probabilities": [
+        0.3336770236492157,
+        0.3465990722179413,
+        0.213328555226326,
+        0.10639533400535583
+      ],
+      "true_label": 1,
+      "correct_prediction": true,
+      "sample_index": 104,
+      "filename": "m (129)_preprocessed.jpg"
+    },
+    {
+      "predicted_class": "glioma_tumor",
+      "predicted_class_idx": 0,
+      "confidence": 0.9999566078186035,
+      "all_probabilities": [
+        0.9999566078186035,
+        3.181165084242821e-05,
+        9.663940545578953e-06,
+        1.8856252381738159e-06
+      ],
+      "true_label": 0,
+      "correct_prediction": true,
+      "sample_index": 47,
+      "filename": "gg (246)_preprocessed.jpg"
+    },
+    {
+      "predicted_class": "meningioma_tumor",
+      "predicted_class_idx": 1,
+      "confidence": 0.6678593158721924,
+      "all_probabilities": [
+        0.17380811274051666,
+        0.6678593158721924,
+        0.11488787084817886,
+        0.04344470426440239
+      ],
+      "true_label": 2,
+      "correct_prediction": false,
+      "sample_index": 258,
+      "filename": "image(27)_preprocessed.jpg"
+    },
+    {
+      "predicted_class": "pituitary_tumor",
+      "predicted_class_idx": 3,
+      "confidence": 0.9996739625930786,
+      "all_probabilities": [
+        3.454404941294342e-05,
+        0.0002533060032874346,
+        3.830744026345201e-05,
+        0.9996739625930786
+      ],
+      "true_label": 3,
+      "correct_prediction": true,
+      "sample_index": 151,
+      "filename": "p (558)_preprocessed.jpg"
+    }
+  ],
+  "class_names": [
+    "glioma_tumor",
+    "meningioma_tumor",
+    "no_tumor",
+    "pituitary_tumor"
+  ]
+}

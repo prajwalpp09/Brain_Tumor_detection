@@ -1,0 +1,1020 @@
+2025-10-04 01:15:18,003 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-04 01:15:18,003 - INFO - Model architecture:
+2025-10-04 01:15:18,003 - INFO - Model: "model"
+2025-10-04 01:15:18,004 - INFO - _________________________________________________________________
+2025-10-04 01:15:18,004 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-04 01:15:18,004 - INFO - =================================================================
+2025-10-04 01:15:18,004 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-04 01:15:18,004 - INFO -                                                                  
+2025-10-04 01:15:18,005 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-04 01:15:18,005 - INFO -  tional)                                                         
+2025-10-04 01:15:18,005 - INFO -                                                                  
+2025-10-04 01:15:18,005 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-04 01:15:18,006 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-04 01:15:18,006 - INFO -                                                                  
+2025-10-04 01:15:18,006 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-04 01:15:18,006 - INFO -                                                                  
+2025-10-04 01:15:18,006 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-04 01:15:18,006 - INFO -                                                                  
+2025-10-04 01:15:18,006 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-04 01:15:18,006 - INFO -                                                                  
+2025-10-04 01:15:18,006 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-04 01:15:18,006 - INFO -                                                                  
+2025-10-04 01:15:18,006 - INFO - =================================================================
+2025-10-04 01:15:18,009 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-04 01:15:18,009 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-04 01:15:18,009 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-04 01:15:18,009 - INFO - _________________________________________________________________
+2025-10-04 01:15:18,238 - INFO - Loaded train split: 2211 samples
+2025-10-04 01:15:18,318 - INFO - Loaded val split: 632 samples
+2025-10-04 01:15:18,384 - INFO - Loaded test split: 317 samples
+2025-10-04 01:15:18,386 - INFO - Generating explanation 1/10
+2025-10-04 15:03:54,682 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-04 15:03:54,682 - INFO - Model architecture:
+2025-10-04 15:03:54,682 - INFO - Model: "model"
+2025-10-04 15:03:54,683 - INFO - _________________________________________________________________
+2025-10-04 15:03:54,683 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-04 15:03:54,683 - INFO - =================================================================
+2025-10-04 15:03:54,683 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-04 15:03:54,683 - INFO -                                                                  
+2025-10-04 15:03:54,684 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-04 15:03:54,685 - INFO -  tional)                                                         
+2025-10-04 15:03:54,685 - INFO -                                                                  
+2025-10-04 15:03:54,685 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-04 15:03:54,685 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-04 15:03:54,685 - INFO -                                                                  
+2025-10-04 15:03:54,685 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-04 15:03:54,685 - INFO -                                                                  
+2025-10-04 15:03:54,685 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-04 15:03:54,685 - INFO -                                                                  
+2025-10-04 15:03:54,685 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-04 15:03:54,685 - INFO -                                                                  
+2025-10-04 15:03:54,685 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-04 15:03:54,685 - INFO -                                                                  
+2025-10-04 15:03:54,685 - INFO - =================================================================
+2025-10-04 15:03:54,688 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-04 15:03:54,688 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-04 15:03:54,688 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-04 15:03:54,688 - INFO - _________________________________________________________________
+2025-10-04 15:03:55,763 - INFO - Loaded train split: 2211 samples
+2025-10-04 15:03:56,158 - INFO - Loaded val split: 632 samples
+2025-10-04 15:03:56,330 - INFO - Loaded test split: 317 samples
+2025-10-04 15:03:56,333 - INFO - Generating explanation 1/10
+2025-10-04 15:18:36,461 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-04 15:18:36,461 - INFO - Model architecture:
+2025-10-04 15:18:36,461 - INFO - Model: "model"
+2025-10-04 15:18:36,461 - INFO - _________________________________________________________________
+2025-10-04 15:18:36,461 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-04 15:18:36,461 - INFO - =================================================================
+2025-10-04 15:18:36,462 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-04 15:18:36,462 - INFO -                                                                  
+2025-10-04 15:18:36,463 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-04 15:18:36,463 - INFO -  tional)                                                         
+2025-10-04 15:18:36,463 - INFO -                                                                  
+2025-10-04 15:18:36,463 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-04 15:18:36,463 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-04 15:18:36,463 - INFO -                                                                  
+2025-10-04 15:18:36,464 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-04 15:18:36,464 - INFO -                                                                  
+2025-10-04 15:18:36,464 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-04 15:18:36,464 - INFO -                                                                  
+2025-10-04 15:18:36,464 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-04 15:18:36,464 - INFO -                                                                  
+2025-10-04 15:18:36,464 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-04 15:18:36,464 - INFO -                                                                  
+2025-10-04 15:18:36,464 - INFO - =================================================================
+2025-10-04 15:18:36,467 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-04 15:18:36,467 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-04 15:18:36,467 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-04 15:18:36,467 - INFO - _________________________________________________________________
+2025-10-04 15:18:37,223 - INFO - Loaded train split: 2211 samples
+2025-10-04 15:18:37,558 - INFO - Loaded val split: 632 samples
+2025-10-04 15:18:37,688 - INFO - Loaded test split: 317 samples
+2025-10-04 15:18:37,690 - INFO - Generating explanation 1/10
+2025-10-04 15:29:23,562 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-04 15:29:23,562 - INFO - Model architecture:
+2025-10-04 15:29:23,562 - INFO - Model: "model"
+2025-10-04 15:29:23,562 - INFO - _________________________________________________________________
+2025-10-04 15:29:23,562 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-04 15:29:23,562 - INFO - =================================================================
+2025-10-04 15:29:23,563 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-04 15:29:23,563 - INFO -                                                                  
+2025-10-04 15:29:23,564 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-04 15:29:23,564 - INFO -  tional)                                                         
+2025-10-04 15:29:23,564 - INFO -                                                                  
+2025-10-04 15:29:23,564 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-04 15:29:23,564 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-04 15:29:23,564 - INFO -                                                                  
+2025-10-04 15:29:23,564 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-04 15:29:23,565 - INFO -                                                                  
+2025-10-04 15:29:23,565 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-04 15:29:23,565 - INFO -                                                                  
+2025-10-04 15:29:23,565 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-04 15:29:23,565 - INFO -                                                                  
+2025-10-04 15:29:23,565 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-04 15:29:23,565 - INFO -                                                                  
+2025-10-04 15:29:23,565 - INFO - =================================================================
+2025-10-04 15:29:23,568 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-04 15:29:23,568 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-04 15:29:23,568 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-04 15:29:23,568 - INFO - _________________________________________________________________
+2025-10-04 15:29:24,625 - INFO - Loaded train split: 2211 samples
+2025-10-04 15:29:24,795 - INFO - Loaded val split: 632 samples
+2025-10-04 15:29:24,875 - INFO - Loaded test split: 317 samples
+2025-10-04 15:29:24,876 - INFO - Generating explanation 1/10
+2025-10-04 15:37:46,995 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-04 15:37:46,995 - INFO - Model architecture:
+2025-10-04 15:37:46,996 - INFO - Model: "model"
+2025-10-04 15:37:46,996 - INFO - _________________________________________________________________
+2025-10-04 15:37:46,996 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-04 15:37:46,996 - INFO - =================================================================
+2025-10-04 15:37:46,996 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-04 15:37:46,996 - INFO -                                                                  
+2025-10-04 15:37:46,997 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-04 15:37:46,998 - INFO -  tional)                                                         
+2025-10-04 15:37:46,998 - INFO -                                                                  
+2025-10-04 15:37:46,998 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-04 15:37:46,998 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-04 15:37:46,998 - INFO -                                                                  
+2025-10-04 15:37:46,998 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-04 15:37:46,998 - INFO -                                                                  
+2025-10-04 15:37:46,998 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-04 15:37:46,998 - INFO -                                                                  
+2025-10-04 15:37:46,998 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-04 15:37:46,998 - INFO -                                                                  
+2025-10-04 15:37:46,998 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-04 15:37:46,998 - INFO -                                                                  
+2025-10-04 15:37:46,998 - INFO - =================================================================
+2025-10-04 15:37:47,001 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-04 15:37:47,002 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-04 15:37:47,002 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-04 15:37:47,002 - INFO - _________________________________________________________________
+2025-10-04 15:37:47,502 - INFO - Loaded train split: 2211 samples
+2025-10-04 15:37:47,691 - INFO - Loaded val split: 632 samples
+2025-10-04 15:37:47,766 - INFO - Loaded test split: 317 samples
+2025-10-04 15:37:47,766 - INFO - Generating explanation 1/10
+2025-10-04 15:42:02,915 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-04 15:42:02,915 - INFO - Model architecture:
+2025-10-04 15:42:02,915 - INFO - Model: "model"
+2025-10-04 15:42:02,915 - INFO - _________________________________________________________________
+2025-10-04 15:42:02,915 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-04 15:42:02,915 - INFO - =================================================================
+2025-10-04 15:42:02,915 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-04 15:42:02,915 - INFO -                                                                  
+2025-10-04 15:42:02,917 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-04 15:42:02,917 - INFO -  tional)                                                         
+2025-10-04 15:42:02,917 - INFO -                                                                  
+2025-10-04 15:42:02,917 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-04 15:42:02,917 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-04 15:42:02,917 - INFO -                                                                  
+2025-10-04 15:42:02,917 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-04 15:42:02,917 - INFO -                                                                  
+2025-10-04 15:42:02,917 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-04 15:42:02,917 - INFO -                                                                  
+2025-10-04 15:42:02,917 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-04 15:42:02,917 - INFO -                                                                  
+2025-10-04 15:42:02,917 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-04 15:42:02,917 - INFO -                                                                  
+2025-10-04 15:42:02,917 - INFO - =================================================================
+2025-10-04 15:42:02,921 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-04 15:42:02,921 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-04 15:42:02,921 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-04 15:42:02,921 - INFO - _________________________________________________________________
+2025-10-04 15:42:03,291 - INFO - Loaded train split: 2211 samples
+2025-10-04 15:42:03,606 - INFO - Loaded val split: 632 samples
+2025-10-04 15:42:03,755 - INFO - Loaded test split: 317 samples
+2025-10-04 15:42:03,756 - INFO - Generating explanation 1/10
+2025-10-05 10:42:57,367 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-05 10:42:57,367 - INFO - Model architecture:
+2025-10-05 10:42:57,367 - INFO - Model: "model"
+2025-10-05 10:42:57,367 - INFO - _________________________________________________________________
+2025-10-05 10:42:57,367 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-05 10:42:57,367 - INFO - =================================================================
+2025-10-05 10:42:57,368 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-05 10:42:57,368 - INFO -                                                                  
+2025-10-05 10:42:57,369 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-05 10:42:57,369 - INFO -  tional)                                                         
+2025-10-05 10:42:57,369 - INFO -                                                                  
+2025-10-05 10:42:57,369 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-05 10:42:57,369 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-05 10:42:57,369 - INFO -                                                                  
+2025-10-05 10:42:57,369 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-05 10:42:57,370 - INFO -                                                                  
+2025-10-05 10:42:57,370 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-05 10:42:57,370 - INFO -                                                                  
+2025-10-05 10:42:57,370 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-05 10:42:57,370 - INFO -                                                                  
+2025-10-05 10:42:57,370 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-05 10:42:57,370 - INFO -                                                                  
+2025-10-05 10:42:57,370 - INFO - =================================================================
+2025-10-05 10:42:57,373 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-05 10:42:57,373 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-05 10:42:57,373 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-05 10:42:57,373 - INFO - _________________________________________________________________
+2025-10-05 10:42:58,005 - INFO - Loaded train split: 2211 samples
+2025-10-05 10:42:58,121 - INFO - Loaded val split: 632 samples
+2025-10-05 10:42:58,172 - INFO - Loaded test split: 317 samples
+2025-10-05 10:42:58,174 - INFO - Generating explanation 1/10
+2025-10-12 22:03:02,310 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-12 22:03:02,310 - INFO - Model architecture:
+2025-10-12 22:03:02,310 - INFO - Model: "model"
+2025-10-12 22:03:02,310 - INFO - _________________________________________________________________
+2025-10-12 22:03:02,310 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-12 22:03:02,310 - INFO - =================================================================
+2025-10-12 22:03:02,310 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-12 22:03:02,310 - INFO -                                                                  
+2025-10-12 22:03:02,312 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-12 22:03:02,312 - INFO -  tional)                                                         
+2025-10-12 22:03:02,312 - INFO -                                                                  
+2025-10-12 22:03:02,312 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-12 22:03:02,312 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-12 22:03:02,312 - INFO -                                                                  
+2025-10-12 22:03:02,312 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-12 22:03:02,313 - INFO -                                                                  
+2025-10-12 22:03:02,313 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-12 22:03:02,313 - INFO -                                                                  
+2025-10-12 22:03:02,313 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-12 22:03:02,313 - INFO -                                                                  
+2025-10-12 22:03:02,313 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-12 22:03:02,313 - INFO -                                                                  
+2025-10-12 22:03:02,313 - INFO - =================================================================
+2025-10-12 22:03:02,316 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-12 22:03:02,316 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-12 22:03:02,316 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-12 22:03:02,316 - INFO - _________________________________________________________________
+2025-10-12 22:03:02,886 - INFO - Loaded train split: 2211 samples
+2025-10-12 22:03:03,006 - INFO - Loaded val split: 632 samples
+2025-10-12 22:03:03,068 - INFO - Loaded test split: 317 samples
+2025-10-12 22:03:03,073 - INFO - Generating explanation 1/10
+2025-10-12 22:21:50,984 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-12 22:21:50,985 - INFO - Model architecture:
+2025-10-12 22:21:50,985 - INFO - Model: "model"
+2025-10-12 22:21:50,985 - INFO - _________________________________________________________________
+2025-10-12 22:21:50,985 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-12 22:21:50,985 - INFO - =================================================================
+2025-10-12 22:21:50,985 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-12 22:21:50,985 - INFO -                                                                  
+2025-10-12 22:21:50,987 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-12 22:21:50,987 - INFO -  tional)                                                         
+2025-10-12 22:21:50,987 - INFO -                                                                  
+2025-10-12 22:21:50,987 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-12 22:21:50,987 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-12 22:21:50,987 - INFO -                                                                  
+2025-10-12 22:21:50,987 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-12 22:21:50,987 - INFO -                                                                  
+2025-10-12 22:21:50,987 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-12 22:21:50,987 - INFO -                                                                  
+2025-10-12 22:21:50,987 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-12 22:21:50,987 - INFO -                                                                  
+2025-10-12 22:21:50,987 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-12 22:21:50,987 - INFO -                                                                  
+2025-10-12 22:21:50,987 - INFO - =================================================================
+2025-10-12 22:21:50,990 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-12 22:21:50,990 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-12 22:21:50,991 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-12 22:21:50,991 - INFO - _________________________________________________________________
+2025-10-12 22:21:50,991 - INFO - Model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:21:50,991 - INFO - Model input shape: (None, 224, 224, 3)
+2025-10-12 22:21:50,991 - INFO - Model input name: input_2
+2025-10-12 22:21:51,743 - INFO - Loaded train split: 2211 samples
+2025-10-12 22:21:51,897 - INFO - Loaded val split: 632 samples
+2025-10-12 22:21:51,958 - INFO - Loaded test split: 317 samples
+2025-10-12 22:21:51,963 - INFO - Generating explanation 1/10
+2025-10-12 22:21:52,504 - INFO - Using model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:21:52,504 - INFO - Using conv output: KerasTensor(type_spec=TensorSpec(shape=(None, 7, 7, 1280), dtype=tf.float32, name=None), name='out_relu/Relu6:0', description="created by layer 'out_relu'")
+2025-10-12 22:21:52,504 - INFO - Model output: KerasTensor(type_spec=TensorSpec(shape=(None, 4), dtype=tf.float32, name=None), name='dense_1/Softmax:0', description="created by layer 'dense_1'")
+2025-10-12 22:21:52,506 - ERROR - Error creating grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:21:52,506 - ERROR - Model input type: <class 'keras.src.engine.keras_tensor.KerasTensor'>
+2025-10-12 22:21:52,506 - ERROR - Conv output type: <class 'keras.src.engine.keras_tensor.KerasTensor'>
+2025-10-12 22:21:52,506 - ERROR - Model output type: <class 'keras.src.engine.keras_tensor.KerasTensor'>
+2025-10-12 22:22:23,225 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-12 22:22:23,225 - INFO - Model architecture:
+2025-10-12 22:22:23,225 - INFO - Model: "model"
+2025-10-12 22:22:23,225 - INFO - _________________________________________________________________
+2025-10-12 22:22:23,225 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-12 22:22:23,225 - INFO - =================================================================
+2025-10-12 22:22:23,225 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-12 22:22:23,225 - INFO -                                                                  
+2025-10-12 22:22:23,227 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-12 22:22:23,227 - INFO -  tional)                                                         
+2025-10-12 22:22:23,227 - INFO -                                                                  
+2025-10-12 22:22:23,227 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-12 22:22:23,227 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-12 22:22:23,227 - INFO -                                                                  
+2025-10-12 22:22:23,227 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-12 22:22:23,227 - INFO -                                                                  
+2025-10-12 22:22:23,227 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-12 22:22:23,227 - INFO -                                                                  
+2025-10-12 22:22:23,227 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-12 22:22:23,227 - INFO -                                                                  
+2025-10-12 22:22:23,227 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-12 22:22:23,227 - INFO -                                                                  
+2025-10-12 22:22:23,227 - INFO - =================================================================
+2025-10-12 22:22:23,231 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-12 22:22:23,231 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-12 22:22:23,231 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-12 22:22:23,231 - INFO - _________________________________________________________________
+2025-10-12 22:22:23,231 - INFO - Model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:22:23,231 - INFO - Model input shape: (None, 224, 224, 3)
+2025-10-12 22:22:23,231 - INFO - Model input name: input_2
+2025-10-12 22:22:23,757 - INFO - Loaded train split: 2211 samples
+2025-10-12 22:22:23,920 - INFO - Loaded val split: 632 samples
+2025-10-12 22:22:24,014 - INFO - Loaded test split: 317 samples
+2025-10-12 22:22:24,014 - INFO - Generating explanation 1/10
+2025-10-12 22:22:24,500 - INFO - Using model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:22:24,500 - INFO - Using conv output: KerasTensor(type_spec=TensorSpec(shape=(None, 7, 7, 1280), dtype=tf.float32, name=None), name='out_relu/Relu6:0', description="created by layer 'out_relu'")
+2025-10-12 22:22:24,500 - INFO - Model output: KerasTensor(type_spec=TensorSpec(shape=(None, 4), dtype=tf.float32, name=None), name='dense_1/Softmax:0', description="created by layer 'dense_1'")
+2025-10-12 22:22:24,503 - ERROR - Error creating grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:22:24,503 - ERROR - Model input type: <class 'keras.src.engine.keras_tensor.KerasTensor'>
+2025-10-12 22:22:24,503 - ERROR - Conv output type: <class 'keras.src.engine.keras_tensor.KerasTensor'>
+2025-10-12 22:22:24,503 - ERROR - Model output type: <class 'keras.src.engine.keras_tensor.KerasTensor'>
+2025-10-12 22:22:40,375 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-12 22:22:40,375 - INFO - Model architecture:
+2025-10-12 22:22:40,375 - INFO - Model: "model"
+2025-10-12 22:22:40,375 - INFO - _________________________________________________________________
+2025-10-12 22:22:40,375 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-12 22:22:40,375 - INFO - =================================================================
+2025-10-12 22:22:40,375 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-12 22:22:40,375 - INFO -                                                                  
+2025-10-12 22:22:40,377 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-12 22:22:40,377 - INFO -  tional)                                                         
+2025-10-12 22:22:40,377 - INFO -                                                                  
+2025-10-12 22:22:40,377 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-12 22:22:40,377 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-12 22:22:40,377 - INFO -                                                                  
+2025-10-12 22:22:40,377 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-12 22:22:40,378 - INFO -                                                                  
+2025-10-12 22:22:40,378 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-12 22:22:40,378 - INFO -                                                                  
+2025-10-12 22:22:40,378 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-12 22:22:40,378 - INFO -                                                                  
+2025-10-12 22:22:40,378 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-12 22:22:40,378 - INFO -                                                                  
+2025-10-12 22:22:40,378 - INFO - =================================================================
+2025-10-12 22:22:40,381 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-12 22:22:40,381 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-12 22:22:40,381 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-12 22:22:40,381 - INFO - _________________________________________________________________
+2025-10-12 22:22:40,381 - INFO - Model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:22:40,381 - INFO - Model input shape: (None, 224, 224, 3)
+2025-10-12 22:22:40,381 - INFO - Model input name: input_2
+2025-10-12 22:22:40,851 - INFO - Loaded train split: 2211 samples
+2025-10-12 22:22:40,975 - INFO - Loaded val split: 632 samples
+2025-10-12 22:22:41,036 - INFO - Loaded test split: 317 samples
+2025-10-12 22:22:41,037 - INFO - Generating explanation 1/10
+2025-10-12 22:22:41,514 - INFO - Using model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:22:41,514 - INFO - Using conv output: KerasTensor(type_spec=TensorSpec(shape=(None, 7, 7, 1280), dtype=tf.float32, name=None), name='out_relu/Relu6:0', description="created by layer 'out_relu'")
+2025-10-12 22:22:41,514 - INFO - Model output: KerasTensor(type_spec=TensorSpec(shape=(None, 4), dtype=tf.float32, name=None), name='dense_1/Softmax:0', description="created by layer 'dense_1'")
+2025-10-12 22:22:41,516 - WARNING - Failed to create model with original input: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:22:41,516 - INFO - Using backbone input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'")
+2025-10-12 22:22:41,518 - ERROR - Error creating grad_model with backbone input: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'") at layer "mobilenetv2_1.00_224". The following previous layers were accessed without issue: ['Conv1', 'bn_Conv1', 'Conv1_relu', 'expanded_conv_depthwise', 'expanded_conv_depthwise_BN', 'expanded_conv_depthwise_relu', 'expanded_conv_project', 'expanded_conv_project_BN', 'block_1_expand', 'block_1_expand_BN', 'block_1_expand_relu', 'block_1_pad', 'block_1_depthwise', 'block_1_depthwise_BN', 'block_1_depthwise_relu', 'block_1_project', 'block_1_project_BN', 'block_2_expand', 'block_2_expand_BN', 'block_2_expand_relu', 'block_2_depthwise', 'block_2_depthwise_BN', 'block_2_depthwise_relu', 'block_2_project', 'block_2_project_BN', 'block_2_add', 'block_3_expand', 'block_3_expand_BN', 'block_3_expand_relu', 'block_3_pad', 'block_3_depthwise', 'block_3_depthwise_BN', 'block_3_depthwise_relu', 'block_3_project', 'block_3_project_BN', 'block_4_expand', 'block_4_expand_BN', 'block_4_expand_relu', 'block_4_depthwise', 'block_4_depthwise_BN', 'block_4_depthwise_relu', 'block_4_project', 'block_4_project_BN', 'block_4_add', 'block_5_expand', 'block_5_expand_BN', 'block_5_expand_relu', 'block_5_depthwise', 'block_5_depthwise_BN', 'block_5_depthwise_relu', 'block_5_project', 'block_5_project_BN', 'block_5_add', 'block_6_expand', 'block_6_expand_BN', 'block_6_expand_relu', 'block_6_pad', 'block_6_depthwise', 'block_6_depthwise_BN', 'block_6_depthwise_relu', 'block_6_project', 'block_6_project_BN', 'block_7_expand', 'block_7_expand_BN', 'block_7_expand_relu', 'block_7_depthwise', 'block_7_depthwise_BN', 'block_7_depthwise_relu', 'block_7_project', 'block_7_project_BN', 'block_7_add', 'block_8_expand', 'block_8_expand_BN', 'block_8_expand_relu', 'block_8_depthwise', 'block_8_depthwise_BN', 'block_8_depthwise_relu', 'block_8_project', 'block_8_project_BN', 'block_8_add', 'block_9_expand', 'block_9_expand_BN', 'block_9_expand_relu', 'block_9_depthwise', 'block_9_depthwise_BN', 'block_9_depthwise_relu', 'block_9_project', 'block_9_project_BN', 'block_9_add', 'block_10_expand', 'block_10_expand_BN', 'block_10_expand_relu', 'block_10_depthwise', 'block_10_depthwise_BN', 'block_10_depthwise_relu', 'block_10_project', 'block_10_project_BN', 'block_11_expand', 'block_11_expand_BN', 'block_11_expand_relu', 'block_11_depthwise', 'block_11_depthwise_BN', 'block_11_depthwise_relu', 'block_11_project', 'block_11_project_BN', 'block_11_add', 'block_12_expand', 'block_12_expand_BN', 'block_12_expand_relu', 'block_12_depthwise', 'block_12_depthwise_BN', 'block_12_depthwise_relu', 'block_12_project', 'block_12_project_BN', 'block_12_add', 'block_13_expand', 'block_13_expand_BN', 'block_13_expand_relu', 'block_13_pad', 'block_13_depthwise', 'block_13_depthwise_BN', 'block_13_depthwise_relu', 'block_13_project', 'block_13_project_BN', 'block_14_expand', 'block_14_expand_BN', 'block_14_expand_relu', 'block_14_depthwise', 'block_14_depthwise_BN', 'block_14_depthwise_relu', 'block_14_project', 'block_14_project_BN', 'block_14_add', 'block_15_expand', 'block_15_expand_BN', 'block_15_expand_relu', 'block_15_depthwise', 'block_15_depthwise_BN', 'block_15_depthwise_relu', 'block_15_project', 'block_15_project_BN', 'block_15_add', 'block_16_expand', 'block_16_expand_BN', 'block_16_expand_relu', 'block_16_depthwise', 'block_16_depthwise_BN']
+2025-10-12 22:23:11,086 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-12 22:23:11,086 - INFO - Model architecture:
+2025-10-12 22:23:11,086 - INFO - Model: "model"
+2025-10-12 22:23:11,086 - INFO - _________________________________________________________________
+2025-10-12 22:23:11,086 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-12 22:23:11,086 - INFO - =================================================================
+2025-10-12 22:23:11,086 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-12 22:23:11,086 - INFO -                                                                  
+2025-10-12 22:23:11,088 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-12 22:23:11,088 - INFO -  tional)                                                         
+2025-10-12 22:23:11,088 - INFO -                                                                  
+2025-10-12 22:23:11,088 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-12 22:23:11,088 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-12 22:23:11,088 - INFO -                                                                  
+2025-10-12 22:23:11,088 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-12 22:23:11,088 - INFO -                                                                  
+2025-10-12 22:23:11,089 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-12 22:23:11,089 - INFO -                                                                  
+2025-10-12 22:23:11,089 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-12 22:23:11,089 - INFO -                                                                  
+2025-10-12 22:23:11,089 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-12 22:23:11,089 - INFO -                                                                  
+2025-10-12 22:23:11,089 - INFO - =================================================================
+2025-10-12 22:23:11,092 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-12 22:23:11,092 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-12 22:23:11,092 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-12 22:23:11,092 - INFO - _________________________________________________________________
+2025-10-12 22:23:11,092 - INFO - Model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:23:11,092 - INFO - Model input shape: (None, 224, 224, 3)
+2025-10-12 22:23:11,092 - INFO - Model input name: input_2
+2025-10-12 22:23:11,611 - INFO - Loaded train split: 2211 samples
+2025-10-12 22:23:11,733 - INFO - Loaded val split: 632 samples
+2025-10-12 22:23:11,794 - INFO - Loaded test split: 317 samples
+2025-10-12 22:23:11,795 - INFO - Generating explanation 1/10
+2025-10-12 22:23:41,841 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-12 22:23:41,841 - INFO - Model architecture:
+2025-10-12 22:23:41,841 - INFO - Model: "model"
+2025-10-12 22:23:41,841 - INFO - _________________________________________________________________
+2025-10-12 22:23:41,841 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-12 22:23:41,841 - INFO - =================================================================
+2025-10-12 22:23:41,841 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-12 22:23:41,842 - INFO -                                                                  
+2025-10-12 22:23:41,843 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-12 22:23:41,843 - INFO -  tional)                                                         
+2025-10-12 22:23:41,843 - INFO -                                                                  
+2025-10-12 22:23:41,843 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-12 22:23:41,844 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-12 22:23:41,844 - INFO -                                                                  
+2025-10-12 22:23:41,844 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-12 22:23:41,844 - INFO -                                                                  
+2025-10-12 22:23:41,844 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-12 22:23:41,844 - INFO -                                                                  
+2025-10-12 22:23:41,844 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-12 22:23:41,844 - INFO -                                                                  
+2025-10-12 22:23:41,844 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-12 22:23:41,844 - INFO -                                                                  
+2025-10-12 22:23:41,844 - INFO - =================================================================
+2025-10-12 22:23:41,847 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-12 22:23:41,847 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-12 22:23:41,847 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-12 22:23:41,847 - INFO - _________________________________________________________________
+2025-10-12 22:23:41,847 - INFO - Model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:23:41,847 - INFO - Model input shape: (None, 224, 224, 3)
+2025-10-12 22:23:41,847 - INFO - Model input name: input_2
+2025-10-12 22:23:42,457 - INFO - Loaded train split: 2211 samples
+2025-10-12 22:23:42,580 - INFO - Loaded val split: 632 samples
+2025-10-12 22:23:42,639 - INFO - Loaded test split: 317 samples
+2025-10-12 22:23:42,640 - INFO - Generating explanation 1/10
+2025-10-12 22:24:04,282 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-12 22:24:04,282 - INFO - Model architecture:
+2025-10-12 22:24:04,282 - INFO - Model: "model"
+2025-10-12 22:24:04,282 - INFO - _________________________________________________________________
+2025-10-12 22:24:04,283 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-12 22:24:04,283 - INFO - =================================================================
+2025-10-12 22:24:04,283 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-12 22:24:04,283 - INFO -                                                                  
+2025-10-12 22:24:04,285 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-12 22:24:04,285 - INFO -  tional)                                                         
+2025-10-12 22:24:04,285 - INFO -                                                                  
+2025-10-12 22:24:04,285 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-12 22:24:04,285 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-12 22:24:04,285 - INFO -                                                                  
+2025-10-12 22:24:04,285 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-12 22:24:04,285 - INFO -                                                                  
+2025-10-12 22:24:04,285 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-12 22:24:04,285 - INFO -                                                                  
+2025-10-12 22:24:04,285 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-12 22:24:04,285 - INFO -                                                                  
+2025-10-12 22:24:04,285 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-12 22:24:04,285 - INFO -                                                                  
+2025-10-12 22:24:04,285 - INFO - =================================================================
+2025-10-12 22:24:04,288 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-12 22:24:04,288 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-12 22:24:04,288 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-12 22:24:04,288 - INFO - _________________________________________________________________
+2025-10-12 22:24:04,288 - INFO - Model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:24:04,288 - INFO - Model input shape: (None, 224, 224, 3)
+2025-10-12 22:24:04,288 - INFO - Model input name: input_2
+2025-10-12 22:24:04,876 - INFO - Loaded train split: 2211 samples
+2025-10-12 22:24:05,020 - INFO - Loaded val split: 632 samples
+2025-10-12 22:24:05,102 - INFO - Loaded test split: 317 samples
+2025-10-12 22:24:05,103 - INFO - Generating explanation 1/10
+2025-10-12 22:24:23,847 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-12 22:24:23,847 - INFO - Model architecture:
+2025-10-12 22:24:23,847 - INFO - Model: "model"
+2025-10-12 22:24:23,847 - INFO - _________________________________________________________________
+2025-10-12 22:24:23,847 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-12 22:24:23,847 - INFO - =================================================================
+2025-10-12 22:24:23,847 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-12 22:24:23,848 - INFO -                                                                  
+2025-10-12 22:24:23,849 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-12 22:24:23,849 - INFO -  tional)                                                         
+2025-10-12 22:24:23,849 - INFO -                                                                  
+2025-10-12 22:24:23,849 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-12 22:24:23,849 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-12 22:24:23,849 - INFO -                                                                  
+2025-10-12 22:24:23,850 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-12 22:24:23,850 - INFO -                                                                  
+2025-10-12 22:24:23,850 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-12 22:24:23,850 - INFO -                                                                  
+2025-10-12 22:24:23,850 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-12 22:24:23,850 - INFO -                                                                  
+2025-10-12 22:24:23,850 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-12 22:24:23,850 - INFO -                                                                  
+2025-10-12 22:24:23,850 - INFO - =================================================================
+2025-10-12 22:24:23,853 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-12 22:24:23,853 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-12 22:24:23,853 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-12 22:24:23,853 - INFO - _________________________________________________________________
+2025-10-12 22:24:23,854 - INFO - Model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:24:23,854 - INFO - Model input shape: (None, 224, 224, 3)
+2025-10-12 22:24:23,854 - INFO - Model input name: input_2
+2025-10-12 22:24:24,286 - INFO - Loaded train split: 2211 samples
+2025-10-12 22:24:24,408 - INFO - Loaded val split: 632 samples
+2025-10-12 22:24:24,466 - INFO - Loaded test split: 317 samples
+2025-10-12 22:24:24,466 - INFO - Generating explanation 1/10
+2025-10-12 22:24:47,099 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-12 22:24:47,099 - INFO - Model architecture:
+2025-10-12 22:24:47,099 - INFO - Model: "model"
+2025-10-12 22:24:47,099 - INFO - _________________________________________________________________
+2025-10-12 22:24:47,099 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-12 22:24:47,099 - INFO - =================================================================
+2025-10-12 22:24:47,099 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-12 22:24:47,099 - INFO -                                                                  
+2025-10-12 22:24:47,101 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-12 22:24:47,101 - INFO -  tional)                                                         
+2025-10-12 22:24:47,101 - INFO -                                                                  
+2025-10-12 22:24:47,101 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-12 22:24:47,101 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-12 22:24:47,101 - INFO -                                                                  
+2025-10-12 22:24:47,101 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-12 22:24:47,101 - INFO -                                                                  
+2025-10-12 22:24:47,102 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-12 22:24:47,102 - INFO -                                                                  
+2025-10-12 22:24:47,102 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-12 22:24:47,102 - INFO -                                                                  
+2025-10-12 22:24:47,102 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-12 22:24:47,102 - INFO -                                                                  
+2025-10-12 22:24:47,102 - INFO - =================================================================
+2025-10-12 22:24:47,105 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-12 22:24:47,105 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-12 22:24:47,105 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-12 22:24:47,105 - INFO - _________________________________________________________________
+2025-10-12 22:24:47,105 - INFO - Model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:24:47,105 - INFO - Model input shape: (None, 224, 224, 3)
+2025-10-12 22:24:47,105 - INFO - Model input name: input_2
+2025-10-12 22:24:47,546 - INFO - Loaded train split: 2211 samples
+2025-10-12 22:24:47,707 - INFO - Loaded val split: 632 samples
+2025-10-12 22:24:47,758 - INFO - Loaded test split: 317 samples
+2025-10-12 22:24:47,759 - INFO - Generating explanation 1/10
+2025-10-12 22:25:11,176 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-12 22:25:11,176 - INFO - Model architecture:
+2025-10-12 22:25:11,177 - INFO - Model: "model"
+2025-10-12 22:25:11,177 - INFO - _________________________________________________________________
+2025-10-12 22:25:11,177 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-12 22:25:11,177 - INFO - =================================================================
+2025-10-12 22:25:11,177 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-12 22:25:11,177 - INFO -                                                                  
+2025-10-12 22:25:11,179 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-12 22:25:11,179 - INFO -  tional)                                                         
+2025-10-12 22:25:11,179 - INFO -                                                                  
+2025-10-12 22:25:11,179 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-12 22:25:11,179 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-12 22:25:11,179 - INFO -                                                                  
+2025-10-12 22:25:11,179 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-12 22:25:11,179 - INFO -                                                                  
+2025-10-12 22:25:11,179 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-12 22:25:11,179 - INFO -                                                                  
+2025-10-12 22:25:11,179 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-12 22:25:11,179 - INFO -                                                                  
+2025-10-12 22:25:11,179 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-12 22:25:11,179 - INFO -                                                                  
+2025-10-12 22:25:11,179 - INFO - =================================================================
+2025-10-12 22:25:11,182 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-12 22:25:11,182 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-12 22:25:11,182 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-12 22:25:11,183 - INFO - _________________________________________________________________
+2025-10-12 22:25:11,183 - INFO - Model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:25:11,183 - INFO - Model input shape: (None, 224, 224, 3)
+2025-10-12 22:25:11,183 - INFO - Model input name: input_2
+2025-10-12 22:25:11,640 - INFO - Loaded train split: 2211 samples
+2025-10-12 22:25:11,770 - INFO - Loaded val split: 632 samples
+2025-10-12 22:25:11,831 - INFO - Loaded test split: 317 samples
+2025-10-12 22:25:11,832 - INFO - Generating explanation 1/10
+2025-10-12 22:25:36,730 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-12 22:25:36,730 - INFO - Model architecture:
+2025-10-12 22:25:36,730 - INFO - Model: "model"
+2025-10-12 22:25:36,730 - INFO - _________________________________________________________________
+2025-10-12 22:25:36,730 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-12 22:25:36,730 - INFO - =================================================================
+2025-10-12 22:25:36,731 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-12 22:25:36,731 - INFO -                                                                  
+2025-10-12 22:25:36,732 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-12 22:25:36,732 - INFO -  tional)                                                         
+2025-10-12 22:25:36,732 - INFO -                                                                  
+2025-10-12 22:25:36,732 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-12 22:25:36,733 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-12 22:25:36,733 - INFO -                                                                  
+2025-10-12 22:25:36,733 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-12 22:25:36,733 - INFO -                                                                  
+2025-10-12 22:25:36,733 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-12 22:25:36,733 - INFO -                                                                  
+2025-10-12 22:25:36,733 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-12 22:25:36,733 - INFO -                                                                  
+2025-10-12 22:25:36,733 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-12 22:25:36,733 - INFO -                                                                  
+2025-10-12 22:25:36,733 - INFO - =================================================================
+2025-10-12 22:25:36,736 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-12 22:25:36,736 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-12 22:25:36,736 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-12 22:25:36,736 - INFO - _________________________________________________________________
+2025-10-12 22:25:36,737 - INFO - Model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:25:36,737 - INFO - Model input shape: (None, 224, 224, 3)
+2025-10-12 22:25:36,737 - INFO - Model input name: input_2
+2025-10-12 22:25:37,166 - INFO - Loaded train split: 2211 samples
+2025-10-12 22:25:37,299 - INFO - Loaded val split: 632 samples
+2025-10-12 22:25:37,353 - INFO - Loaded test split: 317 samples
+2025-10-12 22:25:37,354 - INFO - Generating explanation 1/10
+2025-10-12 22:25:37,894 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:25:39,267 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_1_m (20)_preprocessed.jpg.png
+2025-10-12 22:25:50,462 - INFO - Generating explanation 2/10
+2025-10-12 22:25:50,507 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:25:51,354 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_2_image(288)_preprocessed.jpg.png
+2025-10-12 22:25:57,138 - INFO - Generating explanation 3/10
+2025-10-12 22:25:57,191 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:25:58,131 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_3_p (177)_preprocessed.jpg.png
+2025-10-12 22:26:03,772 - INFO - Generating explanation 4/10
+2025-10-12 22:26:03,825 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:26:04,672 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_4_gg (441)_preprocessed.jpg.png
+2025-10-12 22:26:08,472 - INFO - Generating explanation 5/10
+2025-10-12 22:26:08,526 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:26:09,371 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_5_p (220)_preprocessed.jpg.png
+2025-10-12 22:26:13,342 - INFO - Generating explanation 6/10
+2025-10-12 22:26:13,391 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:26:14,241 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_6_gg (288)_preprocessed.jpg.png
+2025-10-12 22:26:16,504 - INFO - Generating explanation 7/10
+2025-10-12 22:26:16,560 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:26:17,403 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_7_gg (225)_preprocessed.jpg.png
+2025-10-12 22:26:21,423 - INFO - Generating explanation 8/10
+2025-10-12 22:26:21,478 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:26:22,316 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_8_gg (22)_preprocessed.jpg.png
+2025-10-12 22:26:23,970 - INFO - Generating explanation 9/10
+2025-10-12 22:26:24,020 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:26:24,864 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_9_m1(177)_preprocessed.jpg.png
+2025-10-12 22:26:27,163 - INFO - Generating explanation 10/10
+2025-10-12 22:26:27,210 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:26:28,081 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_10_gg (396)_preprocessed.jpg.png
+2025-10-12 22:26:47,314 - INFO - Model loaded successfully from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-12 22:26:47,314 - INFO - Model architecture:
+2025-10-12 22:26:47,314 - INFO - Model: "model"
+2025-10-12 22:26:47,314 - INFO - _________________________________________________________________
+2025-10-12 22:26:47,314 - INFO -  Layer (type)                Output Shape              Param #   
+2025-10-12 22:26:47,314 - INFO - =================================================================
+2025-10-12 22:26:47,314 - INFO -  input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+2025-10-12 22:26:47,314 - INFO -                                                                  
+2025-10-12 22:26:47,316 - INFO -  mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+2025-10-12 22:26:47,316 - INFO -  tional)                                                         
+2025-10-12 22:26:47,316 - INFO -                                                                  
+2025-10-12 22:26:47,316 - INFO -  global_average_pooling2d (  (None, 1280)              0         
+2025-10-12 22:26:47,316 - INFO -  GlobalAveragePooling2D)                                         
+2025-10-12 22:26:47,316 - INFO -                                                                  
+2025-10-12 22:26:47,316 - INFO -  dropout (Dropout)           (None, 1280)              0         
+2025-10-12 22:26:47,316 - INFO -                                                                  
+2025-10-12 22:26:47,316 - INFO -  dense (Dense)               (None, 128)               163968    
+2025-10-12 22:26:47,316 - INFO -                                                                  
+2025-10-12 22:26:47,316 - INFO -  dropout_1 (Dropout)         (None, 128)               0         
+2025-10-12 22:26:47,316 - INFO -                                                                  
+2025-10-12 22:26:47,316 - INFO -  dense_1 (Dense)             (None, 4)                 516       
+2025-10-12 22:26:47,316 - INFO -                                                                  
+2025-10-12 22:26:47,316 - INFO - =================================================================
+2025-10-12 22:26:47,320 - INFO - Total params: 2422468 (9.24 MB)
+2025-10-12 22:26:47,320 - INFO - Trainable params: 2019588 (7.70 MB)
+2025-10-12 22:26:47,320 - INFO - Non-trainable params: 402880 (1.54 MB)
+2025-10-12 22:26:47,320 - INFO - _________________________________________________________________
+2025-10-12 22:26:47,320 - INFO - Model input: KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_2'), name='input_2', description="created by layer 'input_2'")
+2025-10-12 22:26:47,320 - INFO - Model input shape: (None, 224, 224, 3)
+2025-10-12 22:26:47,320 - INFO - Model input name: input_2
+2025-10-12 22:26:47,952 - INFO - Loaded train split: 2211 samples
+2025-10-12 22:26:48,120 - INFO - Loaded val split: 632 samples
+2025-10-12 22:26:48,181 - INFO - Loaded test split: 317 samples
+2025-10-12 22:26:48,183 - INFO - Generating explanation 1/10
+2025-10-12 22:26:48,735 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:26:49,850 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_1_gg (279)_preprocessed.jpg.png
+2025-10-12 22:26:54,107 - INFO - Generating explanation 2/10
+2025-10-12 22:26:54,151 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:26:55,004 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_2_image(77)_preprocessed.jpg.png
+2025-10-12 22:26:56,306 - INFO - Generating explanation 3/10
+2025-10-12 22:26:56,356 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:26:57,316 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_3_m2 (162)_preprocessed.jpg.png
+2025-10-12 22:26:58,550 - INFO - Generating explanation 4/10
+2025-10-12 22:26:58,595 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:26:59,444 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_4_m3 (188)_preprocessed.jpg.png
+2025-10-12 22:27:00,571 - INFO - Generating explanation 5/10
+2025-10-12 22:27:00,619 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:01,468 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_5_image (26)_preprocessed.jpg.png
+2025-10-12 22:27:02,771 - INFO - Generating explanation 6/10
+2025-10-12 22:27:02,823 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:03,674 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_6_m (77)_preprocessed.jpg.png
+2025-10-12 22:27:04,722 - INFO - Generating explanation 7/10
+2025-10-12 22:27:04,771 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:05,622 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_7_m (129)_preprocessed.jpg.png
+2025-10-12 22:27:06,755 - INFO - Generating explanation 8/10
+2025-10-12 22:27:06,803 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:07,651 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_8_gg (246)_preprocessed.jpg.png
+2025-10-12 22:27:08,621 - INFO - Generating explanation 9/10
+2025-10-12 22:27:08,668 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:09,520 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_9_image(27)_preprocessed.jpg.png
+2025-10-12 22:27:10,287 - INFO - Generating explanation 10/10
+2025-10-12 22:27:10,336 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:11,185 - INFO - Explanation saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/explanation_10_p (558)_preprocessed.jpg.png
+2025-10-12 22:27:12,173 - INFO - Batch explanations saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations
+2025-10-12 22:27:12,173 - INFO - Results summary saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gradcam_explanations/batch_explanations.json
+2025-10-12 22:27:12,176 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,231 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,284 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,339 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,395 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,448 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,501 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,554 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,607 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,659 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,714 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,768 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,825 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,882 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,935 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:12,987 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,042 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,096 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,149 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,202 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,255 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,307 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,360 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,413 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,466 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,519 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,572 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,627 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,683 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,738 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,791 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,843 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,897 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:13,951 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,006 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,061 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,115 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,169 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,222 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,274 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,327 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,380 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,433 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,485 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,536 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,589 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,644 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,697 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,751 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,805 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,858 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,912 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:14,966 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,018 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,073 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,126 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,181 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,261 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,314 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,367 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,421 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,474 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,527 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,581 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,634 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,688 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,741 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,795 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,848 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,901 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:15,953 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,006 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,058 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,112 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,167 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,220 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,275 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,329 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,382 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,436 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,491 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,547 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,600 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,655 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,708 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,761 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,815 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,867 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,920 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:16,973 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,027 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,081 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,134 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,188 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,242 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,296 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,349 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,403 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,456 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,510 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,565 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,620 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,674 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,727 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,780 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,833 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,888 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,941 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:17,994 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,048 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,100 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,153 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,207 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,260 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,314 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,367 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,421 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,474 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,528 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,581 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,634 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,689 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,742 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,796 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,850 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,903 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:18,957 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,012 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,066 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,119 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,173 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,226 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,281 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,335 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,388 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,442 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,496 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,550 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,602 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,656 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,711 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,765 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,820 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,872 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,925 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:19,978 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,033 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,087 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,140 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,194 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,247 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,301 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,353 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,407 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,463 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,516 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,571 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,625 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,678 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,730 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,784 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,838 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,893 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:20,947 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,002 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,055 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,108 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,163 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,218 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,272 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,326 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,379 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,431 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,486 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,539 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,593 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,647 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,701 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,786 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,841 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,894 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:21,948 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,003 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,058 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,112 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,166 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,221 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,274 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,326 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,379 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,435 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,487 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,542 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,595 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,649 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,703 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,756 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,811 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,865 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,918 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:22,972 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,026 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,079 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,133 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,187 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,242 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,296 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,349 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,403 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,455 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,510 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,564 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,616 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,670 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,723 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,774 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,829 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,883 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:23,936 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,099 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,154 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,208 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,262 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,316 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,370 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,427 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,483 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,537 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,592 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,646 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,700 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,753 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,808 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,864 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,918 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:24,972 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,028 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,082 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,135 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,189 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,242 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,295 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,348 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,402 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,456 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,511 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,565 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,620 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,674 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,729 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,784 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,839 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,891 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,944 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:25,999 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,054 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,107 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,160 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,214 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,269 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,324 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,376 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,432 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,486 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,538 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,592 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,647 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,700 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,753 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,806 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,859 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,914 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:26,968 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,020 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,074 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,127 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,181 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,235 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,288 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,342 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,396 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,450 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,502 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,557 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,610 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,663 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,718 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,773 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,828 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,882 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,936 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:27,991 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,064 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,118 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,175 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,239 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,309 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,376 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,431 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,485 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,541 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,596 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,650 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,703 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,760 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,824 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,885 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,937 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:28,992 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:29,048 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:29,105 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:29,158 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:29,212 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:29,265 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:29,319 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:29,373 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:29,426 - WARNING - Failed to create grad_model: Graph disconnected: cannot obtain value for tensor KerasTensor(type_spec=TensorSpec(shape=(None, 224, 224, 3), dtype=tf.float32, name='input_1'), name='input_1', description="created by layer 'input_1'") at layer "Conv1". The following previous layers were accessed without issue: []
+2025-10-12 22:27:41,364 - INFO - Model focus analysis saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/model_focus_analysis

@@ -1,0 +1,95 @@
+{
+  "test_loss": 0.47597891092300415,
+  "test_accuracy": 0.9085173606872559,
+  "classification_report": {
+    "glioma_tumor": {
+      "precision": 0.9072164948453608,
+      "recall": 0.946236559139785,
+      "f1-score": 0.9263157894736843,
+      "support": 93.0
+    },
+    "meningioma_tumor": {
+      "precision": 0.9,
+      "recall": 0.8617021276595744,
+      "f1-score": 0.8804347826086957,
+      "support": 94.0
+    },
+    "no_tumor": {
+      "precision": 0.8717948717948718,
+      "recall": 0.85,
+      "f1-score": 0.8607594936708861,
+      "support": 40.0
+    },
+    "pituitary_tumor": {
+      "precision": 0.9340659340659341,
+      "recall": 0.9444444444444444,
+      "f1-score": 0.9392265193370165,
+      "support": 90.0
+    },
+    "accuracy": 0.9085173501577287,
+    "macro avg": {
+      "precision": 0.9032693251765418,
+      "recall": 0.900595782810951,
+      "f1-score": 0.9016841462725707,
+      "support": 317.0
+    },
+    "weighted avg": {
+      "precision": 0.9082298516036199,
+      "recall": 0.9085173501577287,
+      "f1-score": 0.9081041150581608,
+      "support": 317.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      88,
+      3,
+      1,
+      1
+    ],
+    [
+      6,
+      81,
+      4,
+      3
+    ],
+    [
+      2,
+      2,
+      34,
+      2
+    ],
+    [
+      1,
+      4,
+      0,
+      85
+    ]
+  ],
+  "per_class_metrics": {
+    "glioma_tumor": {
+      "accuracy": 0.946236559139785,
+      "samples": 93
+    },
+    "meningioma_tumor": {
+      "accuracy": 0.8617021276595744,
+      "samples": 94
+    },
+    "no_tumor": {
+      "accuracy": 0.85,
+      "samples": 40
+    },
+    "pituitary_tumor": {
+      "accuracy": 0.9444444444444444,
+      "samples": 90
+    }
+  },
+  "roc_auc": {
+    "glioma_tumor": 0.9836309523809524,
+    "meningioma_tumor": 0.9755748497280794,
+    "no_tumor": 0.9853790613718412,
+    "pituitary_tumor": 0.9946157611355849
+  },
+  "total_samples": 317,
+  "evaluation_timestamp": "2025-10-05T10:49:39.005653"
+}

@@ -1,0 +1,13 @@
+{
+  "test_loss": 0.5566997528076172,
+  "test_dice_coefficient": 0.5786281824111938,
+  "test_binary_accuracy": 0.9618699550628662,
+  "mean_iou": 0.4598855362948848,
+  "std_iou": 0.23914474544072484,
+  "mean_dice": 0.5864133339874986,
+  "std_dice": 0.2708174674488231,
+  "mean_pixel_accuracy": 0.9618699276339087,
+  "std_pixel_accuracy": 0.023479590129389875,
+  "total_samples": 317,
+  "evaluation_timestamp": "2025-10-05T10:50:19.033264"
+}

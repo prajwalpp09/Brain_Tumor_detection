@@ -1,0 +1,24 @@
+2025-10-03 20:31:49,691 - INFO - Visualization saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gg (362)_preprocessing_steps.png
+2025-10-03 20:32:01,459 - INFO - Processing Training_glioma_tumor - 826 images
+2025-10-03 20:33:37,509 - INFO - Visualization saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/gg (362)_preprocessing_steps.png
+2025-10-03 20:33:46,210 - INFO - Processing Training_glioma_tumor - 826 images
+2025-10-03 20:33:50,525 - INFO - Completed Training_glioma_tumor: 826 successful, 0 failed
+2025-10-03 20:33:50,529 - INFO - Processing Training_meningioma_tumor - 822 images
+2025-10-03 20:33:54,461 - INFO - Completed Training_meningioma_tumor: 822 successful, 0 failed
+2025-10-03 20:33:54,463 - INFO - Processing Training_no_tumor - 395 images
+2025-10-03 20:33:56,079 - INFO - Completed Training_no_tumor: 395 successful, 0 failed
+2025-10-03 20:33:56,082 - INFO - Processing Training_pituitary_tumor - 827 images
+2025-10-03 20:34:00,375 - INFO - Completed Training_pituitary_tumor: 827 successful, 0 failed
+2025-10-03 20:34:00,376 - INFO - Processing Testing_glioma_tumor - 100 images
+2025-10-03 20:34:00,832 - INFO - Completed Testing_glioma_tumor: 100 successful, 0 failed
+2025-10-03 20:34:00,833 - INFO - Processing Testing_meningioma_tumor - 115 images
+2025-10-03 20:34:01,263 - INFO - Completed Testing_meningioma_tumor: 115 successful, 0 failed
+2025-10-03 20:34:01,264 - INFO - Processing Testing_no_tumor - 105 images
+2025-10-03 20:34:01,579 - INFO - Completed Testing_no_tumor: 105 successful, 0 failed
+2025-10-03 20:34:01,579 - INFO - Processing Testing_pituitary_tumor - 74 images
+2025-10-03 20:34:02,098 - INFO - Completed Testing_pituitary_tumor: 74 successful, 0 failed
+2025-10-03 20:34:02,098 - INFO - Processing complete!
+2025-10-03 20:34:02,099 - INFO - Total processed: 3264
+2025-10-03 20:34:02,099 - INFO - Successful: 3264
+2025-10-03 20:34:02,099 - INFO - Failed: 0
+2025-10-03 20:34:02,099 - INFO - Processing log saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/logs/preprocessing_log.json

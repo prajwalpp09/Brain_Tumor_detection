@@ -1,0 +1,6 @@
+{
+  "test_loss": 0.5566997528076172,
+  "test_dice_coefficient": 0.5786281824111938,
+  "test_binary_accuracy": 0.9618699550628662,
+  "total_samples": 317
+}

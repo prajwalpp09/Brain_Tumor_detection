@@ -1,0 +1,121 @@
+2025-10-03 20:34:36,591 - INFO - Loading original preprocessed images...
+2025-10-03 20:34:36,591 - INFO - Loading images from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/data/processed/original/glioma_tumor
+2025-10-03 20:34:36,597 - INFO - Found 926 images in glioma_tumor
+2025-10-03 20:34:37,072 - INFO - Loading images from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/data/processed/original/meningioma_tumor
+2025-10-03 20:34:37,078 - INFO - Found 937 images in meningioma_tumor
+2025-10-03 20:34:37,591 - INFO - Loading images from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/data/processed/original/no_tumor
+2025-10-03 20:34:37,594 - INFO - Found 396 images in no_tumor
+2025-10-03 20:34:37,816 - INFO - Loading images from /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/data/processed/original/pituitary_tumor
+2025-10-03 20:34:37,823 - INFO - Found 901 images in pituitary_tumor
+2025-10-03 20:34:38,367 - INFO - Total images loaded: 3160
+2025-10-03 20:34:40,395 - INFO - Creating train/validation/test splits...
+2025-10-03 20:34:41,866 - INFO - Dataset split completed:
+2025-10-03 20:34:41,867 - INFO -   Training: 2211 samples (70.0%)
+2025-10-03 20:34:41,867 - INFO -   Validation: 632 samples (20.0%)
+2025-10-03 20:34:41,867 - INFO -   Test: 317 samples (10.0%)
+2025-10-03 20:34:41,988 - INFO - Dataset manifest saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/data/manifests/dataset_manifest.csv
+2025-10-03 20:34:41,988 - INFO - 
+Dataset Summary:
+2025-10-03 20:34:41,999 - INFO - 
+class  glioma_tumor  meningioma_tumor  no_tumor  pituitary_tumor
+split                                                           
+test             93                94        40               90
+train           648               656       277              630
+val             185               187        79              181
+2025-10-03 20:34:42,865 - INFO - Split data saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/data/splits
+2025-10-03 20:34:43,336 - INFO - Loaded train split: 2211 samples
+2025-10-03 20:34:43,482 - INFO - Loaded val split: 632 samples
+2025-10-03 20:34:43,527 - INFO - Loaded test split: 317 samples
+2025-10-03 20:35:06,694 - INFO - Loaded train split: 2211 samples
+2025-10-03 20:35:06,824 - INFO - Loaded val split: 632 samples
+2025-10-03 20:35:06,894 - INFO - Loaded test split: 317 samples
+2025-10-03 20:35:06,895 - INFO - Building MobileNetV2 classification model...
+2025-10-03 20:35:07,906 - WARNING - At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+2025-10-03 20:35:07,907 - WARNING - There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+2025-10-03 20:35:07,913 - INFO - Model built with 2,422,468 parameters
+2025-10-03 20:35:07,915 - WARNING - At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+2025-10-03 20:35:07,916 - WARNING - There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+2025-10-03 20:35:07,918 - INFO - Fine-tuning enabled for top 50 layers
+2025-10-03 20:35:07,923 - INFO - Starting model training...
+2025-10-03 20:35:07,923 - INFO - Training samples: 2211
+2025-10-03 20:35:07,923 - INFO - Validation samples: 632
+2025-10-03 20:35:07,923 - INFO - Epochs: 50, Batch size: 32
+2025-10-03 20:43:13,179 - INFO - Training completed!
+2025-10-03 20:43:13,180 - INFO - Training history saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/classifier_training_history.json
+2025-10-03 20:43:48,901 - INFO - Training curves saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/classifier_training_curves.png
+2025-10-03 20:43:48,902 - INFO - Evaluating model on test data...
+2025-10-03 20:43:52,699 - INFO - Test accuracy: 0.9085
+2025-10-03 20:43:52,699 - INFO - Test loss: 0.4760
+2025-10-03 20:43:52,699 - INFO - Per-class accuracies:
+2025-10-03 20:43:52,699 - INFO -   glioma_tumor: 0.9462
+2025-10-03 20:43:52,699 - INFO -   meningioma_tumor: 0.8617
+2025-10-03 20:43:52,699 - INFO -   no_tumor: 0.8500
+2025-10-03 20:43:52,699 - INFO -   pituitary_tumor: 0.9444
+2025-10-03 20:43:52,699 - INFO - Evaluation results saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/classifier_evaluation.json
+2025-10-03 20:43:52,785 - INFO - Model saved as H5 format: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_classifier.h5
+2025-10-03 20:43:57,798 - INFO - Assets written to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_savedmodel/assets
+2025-10-03 20:43:57,993 - INFO - Model saved as SavedModel format: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/brain_tumor_savedmodel
+2025-10-03 20:43:58,016 - INFO - Model architecture, summary, and class names saved
+2025-10-03 20:44:32,559 - INFO - Loaded train split: 2211 samples
+2025-10-03 20:44:32,733 - INFO - Loaded val split: 632 samples
+2025-10-03 20:44:32,809 - INFO - Loaded test split: 317 samples
+2025-10-03 20:44:32,901 - INFO - Generated masks for 100/2211 images
+2025-10-03 20:44:32,971 - INFO - Generated masks for 200/2211 images
+2025-10-03 20:44:33,039 - INFO - Generated masks for 300/2211 images
+2025-10-03 20:44:33,106 - INFO - Generated masks for 400/2211 images
+2025-10-03 20:44:33,175 - INFO - Generated masks for 500/2211 images
+2025-10-03 20:44:33,244 - INFO - Generated masks for 600/2211 images
+2025-10-03 20:44:33,313 - INFO - Generated masks for 700/2211 images
+2025-10-03 20:44:33,378 - INFO - Generated masks for 800/2211 images
+2025-10-03 20:44:33,445 - INFO - Generated masks for 900/2211 images
+2025-10-03 20:44:33,511 - INFO - Generated masks for 1000/2211 images
+2025-10-03 20:44:33,578 - INFO - Generated masks for 1100/2211 images
+2025-10-03 20:44:33,644 - INFO - Generated masks for 1200/2211 images
+2025-10-03 20:44:33,712 - INFO - Generated masks for 1300/2211 images
+2025-10-03 20:44:33,799 - INFO - Generated masks for 1400/2211 images
+2025-10-03 20:44:33,867 - INFO - Generated masks for 1500/2211 images
+2025-10-03 20:44:33,945 - INFO - Generated masks for 1600/2211 images
+2025-10-03 20:44:34,016 - INFO - Generated masks for 1700/2211 images
+2025-10-03 20:44:34,092 - INFO - Generated masks for 1800/2211 images
+2025-10-03 20:44:34,162 - INFO - Generated masks for 1900/2211 images
+2025-10-03 20:44:34,239 - INFO - Generated masks for 2000/2211 images
+2025-10-03 20:44:34,309 - INFO - Generated masks for 2100/2211 images
+2025-10-03 20:44:34,380 - INFO - Generated masks for 2200/2211 images
+2025-10-03 20:44:34,727 - INFO - Generated masks for 100/632 images
+2025-10-03 20:44:34,834 - INFO - Generated masks for 200/632 images
+2025-10-03 20:44:34,943 - INFO - Generated masks for 300/632 images
+2025-10-03 20:44:35,043 - INFO - Generated masks for 400/632 images
+2025-10-03 20:44:35,159 - INFO - Generated masks for 500/632 images
+2025-10-03 20:44:35,255 - INFO - Generated masks for 600/632 images
+2025-10-03 20:44:37,189 - INFO - Sample masks saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/sample_masks
+2025-10-03 20:44:37,190 - INFO - Building U-Net Lite model...
+2025-10-03 20:44:37,417 - INFO - U-Net Lite built with 7,858,433 parameters
+2025-10-03 20:44:37,417 - WARNING - At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+2025-10-03 20:44:37,418 - WARNING - There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+2025-10-03 20:44:37,422 - INFO - U-Net model compiled successfully
+2025-10-03 20:44:37,426 - INFO - Starting U-Net training...
+2025-10-03 20:44:37,426 - INFO - Training samples: 2211
+2025-10-03 20:44:37,426 - INFO - Validation samples: 632
+2025-10-03 20:44:37,426 - INFO - Epochs: 30, Batch size: 32
+2025-10-04 01:11:40,994 - INFO - U-Net training completed!
+2025-10-04 01:11:40,998 - INFO - Training history saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/unet_training_history.json
+2025-10-04 01:12:02,680 - INFO - U-Net training curves saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/unet_training_curves.png
+2025-10-04 01:12:02,765 - INFO - Generated masks for 100/317 images
+2025-10-04 01:12:02,830 - INFO - Generated masks for 200/317 images
+2025-10-04 01:12:02,897 - INFO - Generated masks for 300/317 images
+2025-10-04 01:12:02,918 - INFO - Evaluating U-Net model on test data...
+2025-10-04 01:12:19,416 - INFO - Test Dice coefficient: 0.5786
+2025-10-04 01:12:19,417 - INFO - Test binary accuracy: 0.9619
+2025-10-04 01:12:19,417 - INFO - Test loss: 0.5567
+2025-10-04 01:12:19,417 - INFO - Evaluation results saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/unet_evaluation.json
+2025-10-04 01:12:36,009 - INFO - Saved 50/317 masks
+2025-10-04 01:12:36,017 - INFO - Saved 100/317 masks
+2025-10-04 01:12:36,025 - INFO - Saved 150/317 masks
+2025-10-04 01:12:36,032 - INFO - Saved 200/317 masks
+2025-10-04 01:12:36,040 - INFO - Saved 250/317 masks
+2025-10-04 01:12:36,048 - INFO - Saved 300/317 masks
+2025-10-04 01:12:36,051 - INFO - All masks saved to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/results/predicted_masks
+2025-10-04 01:12:36,131 - INFO - U-Net model saved as H5 format: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/unet_segmentation.h5
+2025-10-04 01:12:38,651 - INFO - Assets written to: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/unet_savedmodel/assets
+2025-10-04 01:12:38,727 - INFO - U-Net model saved as SavedModel format: /Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/models/unet_savedmodel
+2025-10-04 01:12:38,736 - INFO - U-Net model architecture and summary saved

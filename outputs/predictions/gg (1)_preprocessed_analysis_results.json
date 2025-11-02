@@ -1,0 +1,33 @@
+{
+  "image_path": "/Users/prajwalpatil/Desktop/brain-tumor-preprocessing (3)/scripts/data/processed/original/glioma_tumor/gg (1)_preprocessed.jpg",
+  "analysis_timestamp": "2025-10-12T22:31:48.459091",
+  "classification": {
+    "predicted_class": "glioma_tumor",
+    "predicted_class_idx": 0,
+    "confidence": 0.999998927116394,
+    "all_probabilities": {
+      "glioma_tumor": 0.999998927116394,
+      "meningioma_tumor": 1.4968465222864324e-07,
+      "no_tumor": 9.062582648766693e-07,
+      "pituitary_tumor": 4.59192897039884e-08
+    }
+  },
+  "segmentation": {
+    "mask_available": true,
+    "mask_path": "outputs/predictions/gg (1)_preprocessed_segmentation_mask.png"
+  },
+  "size_estimation": {
+    "area_pixels": 2856,
+    "area_mm2": 714.0,
+    "size_category": "large",
+    "num_regions": 14,
+    "largest_region_pixels": 936.0,
+    "circularity": 0.117,
+    "aspect_ratio": 0.827,
+    "solidity": 0.455
+  },
+  "explanation": {
+    "available": true,
+    "explanation_path": "outputs/predictions/gg (1)_preprocessed_gradcam_explanation.png"
+  }
+}
